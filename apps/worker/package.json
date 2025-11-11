@@ -1,0 +1,17 @@
+{
+  "name": "worker",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node-esm src/index.ts"
+  },
+  "dependencies": {
+    "bullmq": "^5.10.0",
+    "ioredis": "^5.4.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
